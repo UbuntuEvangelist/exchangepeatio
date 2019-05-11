@@ -1,0 +1,30 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  socket: /tmp/mysql.sock
+  reconnect: true
+
+development:
+  <<: *default
+  adapter: mysql2
+  database: junedb
+  username: july
+  password: PE@tio2019
+
+test:
+  <<: *default
+  adapter: mysql2
+  database: junedb
+  username: july
+  password: PE@tio2019
+
+production:
+  adapter: mysql2
+  database: junedb
+  username: july
+  password: PE@tio2019
+  host: <%= ENV['HOST'] %>
+  port: 3306
+
+
