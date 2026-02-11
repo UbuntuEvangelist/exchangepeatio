@@ -13,8 +13,8 @@ gem 'redis-rails', '~> 5.0.2'
 gem 'jbuilder', '~> 2.7.0'
 gem 'oauth2', github: 'oauth-xx/oauth2'
 gem 'omniauth', '~> 1.8.1'
-gem 'omniauth-auth0', '~> 2.0.0', require: false
-gem 'omniauth-google-oauth2', '~> 0.5.3', require: false
+gem 'omniauth-auth0', '~> 2.1.0', require: false
+gem 'omniauth-google-oauth2', '~> 0.6.0', require: false
 gem 'omniauth-barong', '~> 0.1.4', require: false
 gem 'figaro', '~> 1.1.1'
 gem 'hashie', '~> 3.5.7'
@@ -40,7 +40,7 @@ gem 'grape-swagger-entity', '~> 0.2.5'
 gem 'grape_logging', '~> 1.8.0'
 gem 'rack-attack', '~> 5.4.1'
 gem 'easy_table', '~> 0.0.9'
-gem 'faraday', '~> 0.14.0'
+gem 'faraday', '~> 2.14.1'
 gem 'jwt', '~> 2.1.0'
 gem 'email_validator', '~> 1.6.0'
 gem 'validate_url', '~> 1.0.2'
@@ -48,7 +48,7 @@ gem 'clipboard-rails', '~> 1.7.1'
 gem 'god', '~> 0.13.7', require: false
 gem 'mini_racer', '~> 0.2.0', require: false
 gem 'arel-is-blank', '~> 1.0.0'
-gem 'sentry-raven', '~> 2.7.3', require: false
+gem 'sentry-raven', '~> 3.0.0', require: false
 gem 'memoist', '~> 0.16.0'
 gem 'method-not-implemented', '~> 1.0.1'
 gem 'passgen', '~> 1.0.2'
